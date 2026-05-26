@@ -1,0 +1,26 @@
+from pathlib import Path
+import pandas as pd
+
+csv_path = Path(
+    r"C:\Users\Estudiante\BigData-and-Business\EjercicioClase3\netflix_titles.csv"
+)
+
+df = pd.read_csv(csv_path)
+print(df)
+
+
+nombre_redes=['director','title',]
+print(nombre_redes)
+
+
+
+resultado = df[['director', 'title']]
+print(resultado)
+
+
+
+
+
+
+
+
